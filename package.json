@@ -1,0 +1,22 @@
+{
+  "name": "adressbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elouafi0182/adressbook.git"
+  },
+  "author": "mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elouafi0182/adressbook/issues"
+  },
+  "homepage": "https://github.com/elouafi0182/adressbook#readme",
+  "dependencies": {
+    "grunt": "^1.0.3"
+  }
+}
