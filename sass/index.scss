@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+.wrapper {
+  font-family: Roboto;
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+
+  th {
+    text-align: left;
+    border-bottom: 1px solid yellow;
+
+    @media only screen and (max-width: 40em) {
+      display: none;
+    }
+  }
+
+  tr td:first-of-type {
+    font-weight: bold;
+
+  }
+
+  td {
+    @media only screen and (max-width: 40em) {
+      display: block;
+
+      &:not(:first-of-type) {
+        margin-left: 20px;
+      }
+    }
+  }
+
+}

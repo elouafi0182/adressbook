@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+    .wrapper {
+        font-family: Roboto;
+        width: 900px;
+        max-width: 100%;
+        margin: auto;
+    }
+    table {
+        width: 100%;
+        border-spacing: 0;
+    }
+    table th {
+        text-align: left;
+        border-bottom: 1px solid black;
+    }
+    @media only screen and (max-width: 40em) {
+        table th {
+            display: none;
+        }
+    }
+    table tr td:first-of-type {
+        font-weight: bold;
+    }
+    @media only screen and (max-width: 40em) {
+        table td {
+            display: block;
+        }
+        table td:not(:first-of-type) {
+            margin-left: 20px;
+        }
+    }
 
+</style>
+<body>
+<div class="wrapper">
+    <table id="example">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Cell</th>
+            <th>Picture</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
