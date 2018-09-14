@@ -2,21 +2,32 @@
 
 .wrapper {
   font-family: Roboto;
-  width: 900px;
-  max-width: 100%;
+  width: 650px;
+  max-width: 1500px;
   margin: auto;
+  border: 1px solid grey;
+  background-color: #f3f9f9;
 }
 
 table {
   width: 100%;
   border-spacing: 0;
-
   th {
     text-align: left;
     border-bottom: 1px solid black;
 
     @media only screen and (max-width: 40em) {
       display: none;
+    }
+  }
+  tbody{
+    border-bottom: 1px solid grey;
+
+    @media only screen and (max-width: 100px) {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+
     }
   }
 

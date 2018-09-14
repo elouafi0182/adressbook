@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $.ajax({
-        url: 'http://api.randomuser.me/?results=1&seed=foobar',
+        url: 'https://randomuser.me/api?results=8&',
         dataType: 'json',
         success: function (data) {
             for ( var i = 0; i < data.results.length; i++ ) {
